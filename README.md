@@ -1,2 +1,2 @@
 # ochrisjoneso.github.io
-Personal Website - GItHub Pages &amp; Google DOmains
+Personal Website - GItHub Pages &amp; Google Domains
