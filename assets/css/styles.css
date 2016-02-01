@@ -392,3 +392,7 @@ transform: translate(-50px, 0)
 .divider:hover{
   color:
 }
+
+.g-recaptcha{
+  display:inline-block;
+}
