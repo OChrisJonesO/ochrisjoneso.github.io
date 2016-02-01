@@ -392,9 +392,3 @@ transform: translate(-50px, 0)
 .divider:hover{
   color:
 }
-
-@media screen and (max-width: 767px){
-.g-recaptcha {transform:scale(0.9);-webkit-transform:scale(0.9);transform-origin:0 0;-webkit-transform-origin:0 0;}
-  
-@media screen and (max-width: 480px){
-.g-recaptcha {transform:scale(0.9);-webkit-transform:scale(0.9);transform-origin:0 0;-webkit-transform-origin:0 0;}
