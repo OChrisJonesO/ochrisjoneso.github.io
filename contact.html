@@ -18,19 +18,8 @@
   <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
   <!--Custom styles used throughout the rest of the site, used for header / footer-->
   <link rel="stylesheet" href="/assets/css/styles.css">
-       <style>
-         @font-face {
-            font-family:VarelaRound;
-            src: url(/assets/fonts/VarelaRouknd-Regular.ttf);
-         }
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Varela+Round">
 
-        body {
-          font-family: 'Varela Round';
-        
-                     
-          background-color:#404041 !important;
-          color: white !important;
-            }
     </style>
 </head>
   <link rel="canonical" href=" http://ochrisjoneso.github.io/contact">
@@ -75,14 +64,24 @@
 </html>
 
 
-            <div id="contact-bg">
+          <script>
+window.onload = function() {
+  var recaptcha = document.forms["contact-form"]["g-recaptcha-response"];
+  recaptcha.required = true;
+  recaptcha.oninvalid = function(e) {
+    alert("Are you a robot? Because robots can't check boxes!");
+  }
+}
+</script>
+
+    <div id="contact-bg">
         <div class="container">
             <div class="row">
                 <div class="col-md-10 col-md-offset-1">
                     <h2 class="text-center spacing-top-sm spacing-bottom-sm">Let's Get in Touch</h2>
                     <h4 class="text-center spacing-bottom-sm" id="contact">Whether it’s for a new project, job proposal, or just a general inquiry - fill out the form below and I’ll respond to you as soon as possible! </h4></div>
                 <div class="col-md-12">
-                    <form action="//formspree.io/0chrisjones0@gmail.com" method="POST">
+                    <form id="contact-form" name="contact-form" action="//formspree.io/0chrisjones0@gmail.com" method="POST">
                         <div class="col-md-5 col-md-offset-1">
                             <h4 class="text-left">Name </h4>
                             <input class="form-control input-sm" type="text" name="Name" required="" autocomplete="on">
@@ -116,7 +115,7 @@
                         </div>
                         <div class="col-md-12 spacing-bottom">
                             <div class="row">
-                                <div class="col-md-5 col-md-offset-1"><div class="g-recaptcha spacing-top-sm" required="" name="ReCAPTCHA" autocomplete="off" data-sitekey="6LdUARcTAAAAAIVTngpFa8P3MOrUVdqbo_lEKZLK"></div></div>
+                                <div class="col-md-5 col-md-offset-1 col-xs-12 col-xs-offset-3"><div class="g-recaptcha spacing-top-sm center-block"  required="" name="ReCAPTCHA" data-sitekey="6LdUARcTAAAAAIVTngpFa8P3MOrUVdqbo_lEKZLK"></div></div>
                                 <div class="col-md-5">
                                     <div id="contact-buttons">
                                         <button class="btn btn-default spacing-top spacing-right-sm fluid-text" type="reset">Cancel </button>
