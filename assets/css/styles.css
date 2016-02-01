@@ -396,3 +396,14 @@ transform: translate(-50px, 0)
 .g-recaptcha{
   display:inline-block;
 }
+
+#st0 {
+  stroke:green !important;
+}
+
+#st1 {
+  stroke:red !important;
+}
+
+
+
