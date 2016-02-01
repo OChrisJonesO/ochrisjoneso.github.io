@@ -7,14 +7,16 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Chris Jones | Blog</title>
+  <title>Chris Jones | Blog
+</title>
   <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 ">
     <!--Stylesheet that links to Jekyll's CSS. Removed SASS autogeneration and am just using this static CSS for simplicity's sake-->
   <link rel="stylesheet" href="/assets/css/jekyll.css">
+  <!--Bootstrap CSS--->
+  <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
   <!--Custom styles used throughout the rest of the site, used for header / footer-->
   <link rel="stylesheet" href="/assets/css/styles.css">
-  <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
        <style>
          @font-face {
             font-family:VarelaRound;
@@ -30,8 +32,9 @@
             }
     </style>
 </head>
-  <link rel="canonical" href=" http://ochrisjoneso.github.io//blog.html">
-  <link rel="alternate" type="application/rss+xml" title="Chris Jones | Blog" href=" http://ochrisjoneso.github.io//feed.xml">
+  <link rel="canonical" href=" http://ochrisjoneso.github.io/blog">
+  <link rel="alternate" type="application/rss+xml" title="Chris Jones |" href=" http://ochrisjoneso.github.io/feed.xml">
+  <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 
 
@@ -43,7 +46,7 @@
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
             <div class="navbar-header">
-                <a class="navbar-brand navbar-link" href="/index.html" id="navbar-logo-brand"><img src="/assets/img/logo.svg"  alt="logo"></a>
+                <a class="navbar-brand navbar-link" href="/index" id="navbar-logo-brand"><img src="/assets/img/logo.svg"  alt="logo"></a>
                 
 
                 
@@ -51,15 +54,16 @@
             </div>
             <div class="collapse navbar-collapse" id="navcol-1">
                 <ul class="nav navbar-nav center-block">
-                    <li role="presentation" class="navbar-link-offset"><a href="/index.html" id="navbar-active">Home </a></li>
-                    <li class="hidden-xs navbar-link-offset navbar-divider" role="presentation"><a>| </a></li>
-                    <li role="presentation" class="navbar-link-offset"><a href="/work.html" class="text-white">Work </a></li>
+                    <li role="presentation" class="navbar-link-offset"><a href="/index" class="text-white ">Home</a></li>
+                    <li class="hidden-xs navbar-link-offset navbar-divider" role="presentation"><a>|</a></li>
+                    <li role="presentation" class="navbar-link-offset"><a href="/portfolio" class="text-white ">Portfolio</a></li>
                     <li class="hidden-xs" role="presentation" id="navbar-logo-nav">
-                        <a href="/index.html"><img src="/assets/img/logo.svg" alt="logo" id="navbar-logo"></a>
+                        <a href="/index"><img src="/assets/img/logo.svg" alt="logo" id="navbar-logo"></a>
                     </li>
-                    <li role="presentation" class="navbar-link-offset"><a href="/blog.html" class="text-white">Blog </a></li>
-                    <li class="hidden-xs navbar-link-offset navbar-divider" role="presentation"><a>| </a></li>
-                    <li role="presentation" class="navbar-link-offset"><a href="/contact.html" class="text-white">Contact </a></li>
+                    <li role="presentation" class="navbar-link-offset">
+                    <a href="/blog" class="text-white active">Blog</a></li>
+                    <li class="hidden-xs navbar-link-offset navbar-divider" role="presentation"><a>|</a></li>
+                    <li role="presentation" class="navbar-link-offset"><a href="/contact" class="text-white ">Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -81,13 +85,13 @@
         <span class="post-meta">Jan 1, 2012</span>
 
         <h2>
-          <a class="post-link" href="//blog/welcome-to-my-dev-blog">Welcome to My Dev Blog!</a>
+          <a class="post-link" href="/blog-post/welcome-to-my-dev-blog">Welcome to My Dev Blog!</a>
         </h2>
       </li>
     
   </ul>
 
-  <p class="rss-subscribe">subscribe <a href="//feed.xml">via RSS</a></p>
+  <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
 
 </div>
 

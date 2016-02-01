@@ -1,32 +1,67 @@
 <!DOCTYPE html>
+
 <html>
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Web Design Home</title>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/styles.css">
+  <!--Defines the <head> content of all Jekyll markdown pages-->
+ <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Chris Jones | Home
+</title>
+  <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+">
+    <!--Stylesheet that links to Jekyll's CSS. Removed SASS autogeneration and am just using this static CSS for simplicity's sake-->
+  <link rel="stylesheet" href="/assets/css/jekyll.css">
+  <!--Bootstrap CSS--->
+  <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
+  <!--Custom styles used throughout the rest of the site, used for header / footer-->
+  <link rel="stylesheet" href="/assets/css/styles.css">
+       <style>
+         @font-face {
+            font-family:VarelaRound;
+            src: url(/assets/fonts/VarelaRouknd-Regular.ttf);
+         }
+
+        body {
+          font-family: 'Varela Round';
+        
+                     
+          background-color:#404041 !important;
+          color: white !important;
+            }
+    </style>
+</head>
+  <link rel="canonical" href=" http://ochrisjoneso.github.io/">
+  <link rel="alternate" type="application/rss+xml" title="Chris Jones |" href=" http://ochrisjoneso.github.io/feed.xml">
+  <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 
-<body>
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+
+  <body>
+
+        <body>
+   <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
             <div class="navbar-header">
-                <a class="navbar-brand navbar-link" href="/index.html" id="navbar-logo-brand"><img src="/assets/img/logo.svg" alt="logo"></a>
+                <a class="navbar-brand navbar-link" href="/index" id="navbar-logo-brand"><img src="/assets/img/logo.svg"  alt="logo"></a>
+                
+
+                
                 <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1" id="navbar-toggle"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
             </div>
             <div class="collapse navbar-collapse" id="navcol-1">
                 <ul class="nav navbar-nav center-block">
-                    <li role="presentation" class="navbar-link-offset"><a href="/index.html" id="navbar-active">Home </a></li>
-                    <li class="hidden-xs navbar-link-offset navbar-divider" role="presentation"><a>| </a></li>
-                    <li role="presentation" class="navbar-link-offset"><a href="/work.html" class="text-white">Work </a></li>
+                    <li role="presentation" class="navbar-link-offset"><a href="/index" class="text-white active">Home</a></li>
+                    <li class="hidden-xs navbar-link-offset navbar-divider" role="presentation"><a>|</a></li>
+                    <li role="presentation" class="navbar-link-offset"><a href="/portfolio" class="text-white">Portfolio</a></li>
                     <li class="hidden-xs" role="presentation" id="navbar-logo-nav">
-                        <a href="/index.html"><img src="/assets/img/logo.svg" alt="logo" id="navbar-logo"></a>
+                        <a href="/index"><img src="/assets/img/logo.svg" alt="logo" id="navbar-logo"></a>
                     </li>
-                    <li role="presentation" class="navbar-link-offset"><a href="/blog.html" class="text-white">Blog </a></li>
-                    <li class="hidden-xs navbar-link-offset navbar-divider" role="presentation"><a>| </a></li>
-                    <li role="presentation" class="navbar-link-offset"><a href="/contact.html" class="text-white">Contact </a></li>
+                    <li role="presentation" class="navbar-link-offset"><a href="/blog" class="text-white">Blog</a></li>
+                    <li class="hidden-xs navbar-link-offset navbar-divider" role="presentation"><a>|</a></li>
+                    <li role="presentation" class="navbar-link-offset"><a href="/contact" class="text-white">Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -46,7 +81,7 @@
                         </div>
                         <div class="row">
                             <div class="col-md-12">
-                                <h3 class="text-center spacing-top-sm">and I'd love to work with you on that killer new project.</h3></div>
+                                <h3 class="text-center img-responsive spacing-top-sm">and I'd love to work with you on that killer new project.</h3></div>
                         </div>
                     </div>
                     <a href="#down-arrow"> <img class="img-responsive arrows" src="assets/img/down-arrow.svg" alt="down arrow" id="down-arrow"></a>
@@ -133,6 +168,12 @@
             </div>
         </div>
     </div>
+</body>
+
+
+    <!DOCTYPE html>
+<html>
+<body>
     <div class="div-grey">
         <div class="container">
             <div class="row">
@@ -143,69 +184,73 @@
                 <div class="col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-12 col-xs-offset-0" id="social-background">
                     <div class="row">
                         <div class="col-xs-3 col-xs-offset-3 social-icon-spacing-bottom-sm">
-                            <a href="mailto:0chrisjones0@gmail.com"><img class="img-responsive social-icon" src="assets/img/email.svg" alt="email"></a>
+                            <a href="mailto:0chrisjones0@gmail.com"><img class="img-responsive social-icon" src="/assets/img/email.svg" alt="email"></a>
                         </div>
                         <div class="col-xs-3">
-                            <a href="https://github.com/OChrisJonesO"><img class="img-responsive social-icon" src="assets/img/github.svg" alt="github"></a>
+                            <a href="https://github.com/OChrisJonesO"><img class="img-responsive social-icon" src="/assets/img/github.svg" alt="github"></a>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-md-3 col-sm-3 col-xs-3">
                             <div class="row">
                                 <div class="col-xs-12">
-                                    <a href="tel:4195819051"><img class="img-responsive social-icon-spacing-top2 social-icon" src="assets/img/phone.svg" alt="phone"></a>
+                                    <a href="tel:4195819051"><img class="img-responsive social-icon-spacing-top2 social-icon" src="/assets/img/phone.svg" alt="phone"></a>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-xs-12 social-icon-spacing-top">
-                                    <a href="https://www.linkedin.com/in/0chrisjones0"><img class="img-responsive social-icon" src="assets/img/linkedin.svg" alt="linkedin"></a>
+                                    <a href="https://www.linkedin.com/in/0chrisjones0"><img class="img-responsive social-icon" src="/assets/img/linkedin.svg" alt="linkedin"></a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-6 col-sm-6 col-xs-6">
                             <div class="row">
-                                <div class="col-md-12"><img class="img-responsive social-icon-avatar" src="assets/img/avatar.svg"></div>
+                                <div class="col-md-12"><img class="img-responsive social-icon-avatar" src="/assets/img/avatar.svg"></div>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-3 col-xs-3">
                             <div class="row">
                                 <div class="col-xs-12 social-icon-spacing-top2">
-                                    <a href="https://dribbble.com/OChrisJonesO"><img class="img-responsive social-icon" src="assets/img/dribbble.svg" alt="dribbble"></a>
+                                    <a href="https://dribbble.com/OChrisJonesO"><img class="img-responsive social-icon" src="/assets/img/dribbble.svg" alt="dribbble"></a>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-xs-12 social-icon-spacing-top">
-                                    <a href="http://www.twitch.tv/ochrisjoneso"><img class="img-responsive social-icon" src="assets/img/twitch.svg" alt="twitch"></a>
+                                    <a href="http://www.twitch.tv/ochrisjoneso"><img class="img-responsive social-icon" src="/assets/img/twitch.svg" alt="twitch"></a>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-xs-3 col-xs-offset-3 social-icon-spacing-bottom-sm">
-                            <a href="https://twitter.com/OChrisJonesO"><img class="img-responsive social-icon" src="assets/img/twitter.svg" alt="twitter" style="margin-top:30px"></a>
+                            <a href="https://twitter.com/OChrisJonesO"><img class="img-responsive social-icon" src="/assets/img/twitter.svg" alt="twitter" style="margin-top:30px"></a>
                         </div>
                         <div class="col-xs-3">
-                            <a href="https://www.youtube.com/channel/UCrloisSZ9aTNsa5ytMy6Kmw"><img class="img-responsive social-icon" src="assets/img/youtube.svg" alt="youtube" style="margin-top:30px;"></a>
+                            <a href="https://www.youtube.com/channel/UCrloisSZ9aTNsa5ytMy6Kmw"><img class="img-responsive social-icon" src="/assets/img/youtube.svg" alt="youtube" style="margin-top:30px;"></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-offset-2 col-md-2 col-md-offset-1 col-sm-1 col-sm-offset-0 hidden-xs hidden-sm" id="up-arrow">
-                    <a href="#top"> <img class="img-responsive arrows center-block" src="assets/img/up-arrow.svg" alt="back to top"></a>
+                    <a href="#top"> <img class="img-responsive arrows center-block" src="/assets/img/up-arrow.svg" alt="back to top"></a>
                     <p class="text-center spacing-top-sm"><a href="#top" class="link-white text-center">Back to top</a></p>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-12">
                     <h4 class="text-center spacing-top">Chris Jones © 2015. All Rights Reserved. </h4>
-                    <a class="hidden-md hidden-lg" href="#top"> <img class="img-responsive arrows spacing-top-sm center-block" src="assets/img/up-arrow.svg" alt="back to top" width="100" height="100"></a>
+                    <a class="hidden-md hidden-lg" href="#top"> <img class="img-responsive arrows spacing-top-sm center-block" src="/assets/img/up-arrow.svg" alt="back to top" width="100" height="100"></a>
                     <p class="hidden-md hidden-lg text-center spacing-top-sm"><a href="#top" class="link-white text-center">Back to top</a></p>
                 </div>
             </div>
         </div>
     </div>
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/js/collapse.js"></script>
+    <script src="/assets/js/jquery.min.js"></script>
+    <script src="/assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/assets/js/collapse.js"></script>
 </body>
+
+</html>
+
+  </body>
 
 </html>

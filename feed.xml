@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Chris Jones | Blog</title>
+    <title>Chris Jones |</title>
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 </description>
-    <link> http://ochrisjoneso.github.io//</link>
-    <atom:link href=" http://ochrisjoneso.github.io//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 01 Feb 2016 07:33:28 +0000</pubDate>
-    <lastBuildDate>Mon, 01 Feb 2016 07:33:28 +0000</lastBuildDate>
+    <link> http://ochrisjoneso.github.io/</link>
+    <atom:link href=" http://ochrisjoneso.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 01 Feb 2016 10:05:01 +0000</pubDate>
+    <lastBuildDate>Mon, 01 Feb 2016 10:05:01 +0000</lastBuildDate>
     <generator>Jekyll v3.1.1</generator>
     
       <item>
@@ -28,13 +28,11 @@
 
 </description>
         <pubDate>Sun, 01 Jan 2012 02:27:46 +0000</pubDate>
-        <link> http://ochrisjoneso.github.io//blog/welcome-to-my-dev-blog</link>
-        <guid isPermaLink="true"> http://ochrisjoneso.github.io//blog/welcome-to-my-dev-blog</guid>
+        <link> http://ochrisjoneso.github.io/blog-post/welcome-to-my-dev-blog</link>
+        <guid isPermaLink="true"> http://ochrisjoneso.github.io/blog-post/welcome-to-my-dev-blog</guid>
         
         
-        <category>jekyll</category>
-        
-        <category>update</category>
+        <category>blog</category>
         
       </item>
     
