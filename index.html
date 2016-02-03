@@ -1,1401 +1,246 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="">
-	<meta name="author" content="">
 
-	<title>Chris Jones - Portfolio</title>
+<html>
 
-	<!-- CSS -->
-	<link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
-	<link href="assets/css/font-awesome.min.css" rel="stylesheet" media="screen">
-	<link href="assets/css/simple-line-icons.css" rel="stylesheet" media="screen">
-	<link href="assets/css/animate.css" rel="stylesheet">
-    
-	<!-- Custom styles CSS -->
-	<link href="assets/css/style.css" rel="stylesheet" media="screen">
-    
-    <script src="assets/js/modernizr.custom.js"></script>
-       
+  <!--Defines the <head> content of all Jekyll markdown pages-->
+ <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Chris Jones | Home
+</title>
+  <meta name="description" content="Ramblings of a creative developer">
+    <!--Stylesheet that links to Jekyll's CSS. Removed SASS autogeneration and am just using this static CSS for simplicity's sake-->
+  <link rel="stylesheet" href="/assets/css/jekyll.css">
+  <!--Bootstrap CSS--->
+  <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
+  <!--Custom styles used throughout the rest of the site, used for header / footer-->
+  <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Varela+Round">
+
+    </style>
 </head>
-<body>
+  <link rel="canonical" href="http://chrisjonescreations.com/">
+  <link rel="alternate" type="application/rss+xml" title="Chris Jones |" href="http://chrisjonescreations.com/feed.xml">
+  <script src='https://www.google.com/recaptcha/api.js'></script>
+</head>
 
-	<!-- Preloader -->
 
-	<div id="preloader">
-		<div id="status"></div>
-	</div>
+  <body>
 
-	<!-- Home start -->
-
-	<section id="home" class="pfblock-image screen-height">
-        <div class="home-overlay"></div>
-		<div class="intro">
-			<div class="start">Hi, my name is Chris Jones and I'm a</div>
-                <h1 style="font-size:48px">Designer / Developer</h1>
-			<div class="start">who has a passion creating interactive experiences that shape tomorrow.</div>
-		</div>
-
-        <a href="#about">
-		<div class="scroll-down">
-            <span>
-                <i class="fa fa-angle-down fa-2x"></i>
-            </span>
-		</div>
-        </a>
-
-	</section>
-
-	<!-- Home end -->
-
-	<!-- Navigation start -->
-
-	<header class="header">
-
-		<nav class="navbar navbar-custom" role="navigation">
-
-			<div class="container">
-
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#custom-collapse">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<a class="navbar-brand" href="#" style="font-family:Raleway" >Chris Jones</a>
-				</div>
-
-				<div class="collapse navbar-collapse" id="custom-collapse">
-					<ul class="nav navbar-nav navbar-right">
-						<li><a href="#home">Home</a></li>
-						<li><a href="#about">About</a></li>
-                        <li><a href="#portfolio">Work</a></li>
-                        <li><a href="#skills">Skills</a></li>
-						<li><a href="#contact">Contact</a></li>
-					</ul>
-				</div>
-
-			</div><!-- .container -->
-
-		</nav>
-
-	</header>
-
-	<!-- Navigation end -->
-
-    <!-- about start -->
-
-	<section id="about" class="pfblock pfblock-gray">
-		<div class="container">
-			<div class="row">
-
-				<div class="col-sm-6 col-sm-offset-3">
-
-					<div class="pfblock-header wow fadeInUp">
-						<h2 class="pfblock-title">About</h2>
-						<div class="pfblock-line"></div>
-						<div class="pfblock-subtitle">
-						           <p>Who am I and what do I do?</p>
-							
-						</div>
-					</div>
-
-				</div>
-
-			</div>
-
-			<div class="row">
-
-				<div class="col-sm-3">
-
-					<div class="iconbox wow slideInLeft">
-						<div class="iconbox-icon">
-							<span class="icon-magic-wand"></span>
-						</div>
-						<div class="iconbox-text">
-							<h3 class="iconbox-title">I.T. Wiz</h3>
-							<div class="iconbox-desc">
-PC builds, repairs, upgrades, and more. Windows, Mac, Linux, Android, and iOS. I love to tinker.
-							</div>
-						</div>
-					</div>
-
-				</div>
-
-				<div class="col-sm-3">
-
-					<div class="iconbox wow slideInLeft">
-						<div class="iconbox-icon">
-							<span class="icon-globe"></span>
-						</div>
-						<div class="iconbox-text">
-							<h3 class="iconbox-title">Developer</h3>
-							<div class="iconbox-desc">
-								I leverage different technologies to create websites, applications, games, and VR experiences.
-							</div>
-						</div>
-					</div>
-
-				</div>
-
-				<div class="col-sm-3">
-
-					<div class="iconbox wow slideInRight">
-						<div class="iconbox-icon">
-							<span class="icon-vector"></span>
-						</div>
-						<div class="iconbox-text">
-							<h3 class="iconbox-title">Designer</h3>
-							<div class="iconbox-desc">
-								To the creative cloud and beyond!  I love working with raster and vector graphics for any medium.
-							</div>
-						</div>
-					</div>
-
-				</div>
-
-				<div class="col-sm-3">
-
-					<div class="iconbox wow slideInRight">
-						<div class="iconbox-icon">
-							<span class="icon-rocket"></span>
-						</div>
-						<div class="iconbox-text">
-							<h3 class="iconbox-title">Gamer</h3>
-							<div class="iconbox-desc">
-								Video games are my passion! When I'm not busy being productive, I'm probably gaming. &#xe01b;
-							</div>
-						</div>
-					</div>
-
-				</div>
-
-			</div><!-- .row -->
-		</div><!-- .container -->
-	</section>
-
-	<!-- Services end -->
-    
-	<!-- Portfolio start -->
-
-	<section id="portfolio" class="pfblock">
-		<div class="container">
-			<div class="row">
-
-				<div class="col-sm-6 col-sm-offset-3">
-
-					<div class="pfblock-header wow fadeInUp">
-						<h2 class="pfblock-title">My work</h2>
-						<div class="pfblock-line"></div>
-						<div class="pfblock-subtitle">
-							
-						</div>
-					</div>
-
-				</div>
-
-			</div><!-- .row -->
-            
-            
-            <div class="row">
-                 
-                  <a href="#portfolioModal13" class="portfolio-link" data-toggle="modal">
-
-                <div class="col-xs-12 col-sm-4 col-md-4">
-            
-                    <div class="grid wow zoomIn">
-                        <figure class="effect-bubba">
-                            <img src="assets/images/breakthrough-icon.jpg" alt="img01"/>
-                            <figcaption>
-                                <h2>Breakthrough <span>VR</span></h2>
-                                <p>Virtual Reality Racing Sim</p>
-                            </figcaption>			
-                        </figure>
-                    </div>
-                    
-                </div>
-				</a> 
-         <!--  <a href="#portfolioModal14" class="portfolio-link" data-toggle="modal">
-
-                <div class="col-xs-12 col-sm-4 col-md-4">
-            
-                    <div class="grid wow zoomIn">
-                        <figure class="effect-bubba">
-                            <img src="assets/images/hive-icon.jpg" alt="img01"/>
-                            <figcaption>
-                                <h2>The  <span>Hive</span></h2>
-                                <p>Casual iOS / Android Game</p>
-                            </figcaption>			
-                        </figure>
-                    </div>
-                    
-                </div>
-				</a> 
-         -->
-         <!-- <a href="#portfolioModal15" class="portfolio-link" data-toggle="modal">
-
-                <div class="col-xs-12 col-sm-4 col-md-4">
-            
-                    <div class="grid wow zoomIn">
-                        <figure class="effect-bubba">
-                            <img src="assets/images/tays-icon.jpg" alt="img01"/>
-                            <figcaption>
-                                <h2>Teradata  <span>At Your Service</span></h2>
-                                <p>TaYS Support Portal</p>
-                            </figcaption>			
-                        </figure>
-                    </div>
-                    
-                </div>
-				</a> 
--->
-                 
-                 
-                 <a href="#portfolioModal16" class="portfolio-link" data-toggle="modal">
-
-                <div class="col-xs-12 col-sm-4 col-md-4">
-            
-                    <div class="grid wow zoomIn">
-                        <figure class="effect-bubba">
-                            <img src="assets/images/dash-icon.jpg" alt="img01"/>
-                            <figcaption>
-                                <h2> <span>DASH</span></h2>
-                                <p>Motion Graphics Commercial</p>
-                            </figcaption>			
-                        </figure>
-                    </div>
-                    
-                </div>
-				</a> 
+        <body>
+   <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand navbar-link" href="/index" id="navbar-logo-brand"><img src="/assets/img/logo.svg"  alt="logo"></a>
                 
-                
-                
-                 <a href="#portfolioModal17" class="portfolio-link" data-toggle="modal">
-
-                <div class="col-xs-12 col-sm-4 col-md-4">
-            
-                    <div class="grid wow zoomIn">
-                        <figure class="effect-bubba">
-                            <img src="assets/images/gamescom-icon.jpg" alt="img01"/>
-                            <figcaption>
-                                <h2>Gamescom <span>2015</span></h2>
-                                <p>Web Design</p>
-                            </figcaption>			
-                        </figure>
-                    </div>
-                    
-                </div>
-				</a> 
-                
-                <a href="#portfolioModal18" class="portfolio-link" data-toggle="modal">
-
-                <div class="col-xs-12 col-sm-4 col-md-4">
-            
-                    <div class="grid wow zoomIn">
-                        <figure class="effect-bubba">
-                            <img src="assets/images/buildapc-icon.jpg" alt="img01"/>
-                            <figcaption>
-                                <h2> Build A<span>PC</span></h2>
-                                <p>Mobile App Design</p>
-                            </figcaption>			
-                        </figure>
-                    </div>
-                    
-                </div>
-				</a> 
-                
-                 
-                  <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                <div class="col-xs-12 col-sm-4 col-md-4">
-                    <div class="grid wow zoomIn">
-                        <figure class="effect-bubba">
-                            <img src="assets/images/boston-icon.jpg" alt="img01"/>
-                            <figcaption>
-                                <h2>City of <span>Boston</span></h2>
-                                <p>Web Design / Development</p>
-                            </figcaption>			
-                        </figure>
-                    </div>
-			
-                </div>
-	</a>
-                <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                <div class="col-xs-12 col-sm-4 col-md-4">
-                             
-                    <div class="grid wow zoomIn">
-                        <figure class="effect-bubba">
-                            <img src="assets/images/dalco-icon.jpg" alt="img01"/>
-                            <figcaption>
-                                <h2>Dalco<span> Electronics</span></h2>
-                                <p>eCommerce Website - AspdotnetStoreFront</p>
-                            </figcaption>			
-                        </figure>
-                    </div>
-                    
-                </div>
-				</a>
-                 <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-
-                <div class="col-xs-12 col-sm-4 col-md-4">
-            
-                    <div class="grid wow zoomIn">
-                        <figure class="effect-bubba">
-                            <img src="assets/images/coldwaterbens-icon.jpg" alt="img01"/>
-                            <figcaption>
-                                <h2>Coldwater<span> Ben's</span></h2>
-                                <p>Client Website - Wordpress</p>
-                            </figcaption>			
-                        </figure>
-                    </div>
-                    
-                </div>
-				</a>
-               
-                <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-
-                <div class="col-xs-12 col-sm-4 col-md-4">
-            
-                    <div class="grid wow zoomIn">
-                        <figure class="effect-bubba">
-                            <img src="assets/images/daiya-icon.jpg" alt="img01"/>
-                            <figcaption>
-                                <h2>Daiya <span>Foods</span></h2>
-                                <p>Food Splash Page</p>
-                            </figcaption>			
-                        </figure>
-                    </div>
-                    
-                </div>
-				</a>
-               
-                <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-
-                <div class="col-xs-12 col-sm-4 col-md-4">
-            
-                    <div class="grid wow zoomIn">
-                        <figure class="effect-bubba">
-                            <img src="assets/images/bpa-icon.jpg" alt="img01"/>
-                            <figcaption>
-                                <h2>Renewable <span>Resources</span></h2>
-                                <p>BPA Website Design Competition - Bootstrap</p>
-                            </figcaption>			
-                        </figure>
-                    </div>
-                    
-                </div>
-				</a>
-                <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-
-                <div class="col-xs-12 col-sm-4 col-md-4">
-            
-                    <div class="grid wow zoomIn">
-                        <figure class="effect-bubba">
-                            <img src="assets/images/quicktips-icon.jpg" alt="img01"/>
-                            <figcaption>
-                                <h2>PC Gaming <span>Quick Tips</span></h2>
-                                <p>Personal YouTube - Motion GFX / Video Editing</p>
-                            </figcaption>			
-                        </figure>
-                    </div>
-                    
-                </div>
-				</a>
-                <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
-
-                <div class="col-xs-12 col-sm-4 col-md-4">
-            
-                    <div class="grid wow zoomIn">
-                        <figure class="effect-bubba">
-                            <img src="assets/images/beetheswarm-icon.jpg" alt="img01"/>
-                            <figcaption>
-                                <h2>Bee the <span>Swarm</span></h2>
-                                <p>Promotional Video production</p>
-                            </figcaption>			
-                        </figure>
-                    </div>
-                    
-                    
-                    
-                </div>
-				</a>
-                <a href="#portfolioModal8" class="portfolio-link" data-toggle="modal">
-
-                <div class="col-xs-12 col-sm-4 col-md-4">
-            
-                    <div class="grid wow zoomIn">
-                        <figure class="effect-bubba">
-                            <img src="assets/images/landofconfusion-icon.jpg" alt="img01"/>
-                            <figcaption>
-                                <h2>Land of <span>Confusion</span></h2>
-                                <p>Song Mashup + Lyric Video</p>
-                            </figcaption>			
-                        </figure>
-                    </div>
-                    
-                </div>
-				</a>
-                <a href="#portfolioModal9" class="portfolio-link" data-toggle="modal">
-
-                <div class="col-xs-12 col-sm-4 col-md-4">
-            
-                    <div class="grid wow zoomIn">
-                        <figure class="effect-bubba">
-                            <img src="assets/images/illustration-icon.jpg" alt="img01"/>
-                            <figcaption>
-                                <h2>Daryl <span>Dixon</span></h2>
-                                <p>Pencil Drawing - Traditional Art</p>
-                            </figcaption>			
-                        </figure>
-                    </div>
-                    
-                </div>
-				</a>
-                <a href="#portfolioModal10" class="portfolio-link" data-toggle="modal">
 
                 
-                  <div class="col-xs-12 col-sm-4 col-md-4">
-            
-                    <div class="grid wow zoomIn">
-                        <figure class="effect-bubba">
-                            <img src="assets/images/nonprofit-icon.jpg" alt="img01"/>
-                            <figcaption>
-                                <h2>Sunrise <span>Sanctuary</span></h2>
-                                <p>Non-profit flyer</p>
-                            </figcaption>			
-                        </figure>
-                    </div>
-                    
-                    
-                    
-                </div>
-				</a>
-                <a href="#portfolioModal11" class="portfolio-link" data-toggle="modal">
-
-                <div class="col-xs-12 col-sm-4 col-md-4">
-            
-                    <div class="grid wow zoomIn">
-                        <figure class="effect-bubba">
-                            <img src="assets/images/steam-icon.jpg" alt="img01"/>
-                            <figcaption>
-                                <h2>Steam <span>Client</span></h2>
-                                <p>Digital Service print brochure</p>
-                            </figcaption>			
-                        </figure>
-                    </div>
-                    
-                </div>
-				</a>
-                <a href="#portfolioModal12" class="portfolio-link" data-toggle="modal">
-
-                <div class="col-xs-12 col-sm-4 col-md-4">
-            
-                    <div class="grid wow zoomIn">
-                        <figure class="effect-bubba">
-                            <img src="assets/images/retail-icon.jpg" alt="img01"/>
-                            <figcaption>
-                                <h2>Earth <span>Fare</span></h2>
-                                <p>Seasonal Retail Design </p>
-                            </figcaption>			
-                        </figure>
-                    </div>
-                    
-                </div>
-                
-				</a>
-           
-          
-           
-           
-           
-           
-           
+                <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1" id="navbar-toggle"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
             </div>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav center-block">
+                    <li role="presentation" class="navbar-link-offset"><a href="/index" class="text-white active">Home</a></li>
+                    <li class="hidden-xs navbar-link-offset navbar-divider" role="presentation"><a>|</a></li>
+                    <li role="presentation" class="navbar-link-offset"><a href="/portfolio" class="text-white">Portfolio</a></li>
+                    <li class="hidden-xs" role="presentation" id="navbar-logo-nav">
+                        <a href="/index"><img src="/assets/img/logo.svg" alt="logo" id="navbar-logo"></a>
+                    </li>
+                    <li role="presentation" class="navbar-link-offset"><a href="/blog" class="text-white">Blog</a></li>
+                    <li class="hidden-xs navbar-link-offset navbar-divider" role="presentation"><a>|</a></li>
+                    <li role="presentation" class="navbar-link-offset"><a href="/contact" class="text-white">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="billboard">
+        <div class="container billboard-mid" id="top">
+            <div class="row">
+                <div class="col-md-12" id="billboard-content">
+                    <div id="navbar-fill"></div>
+                    <div id="billboard-mid">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h3 class="text-center spacing-bottom-sm">Hi, I'm Chris Jones! I'm what you might call a</h3></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12"><img class="img-responsive center-block" src="assets/img/developer.svg" alt="job title" width="80%"></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h3 class="text-center img-responsive spacing-top-sm">and I'd love to work with you on that killer new project.</h3></div>
+                        </div>
+                    </div>
+                    <a href="#down-arrow"> <img class="img-responsive arrows" src="assets/img/down-arrow.svg" alt="down arrow" id="down-arrow"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="about" class="div-blue">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-12 col-xs-12"><img class="img-circle img-responsive icon-lg center-block image-padded" src="assets/img/me.png" alt="chris jones"></div>
+                <div class="col-md-8">
+                    <h2 class="small-heading-center">A bit more about myself...</h2></div>
+                <div class="col-lg-8 col-md-8">
+                    <p>Being a graphic designer and a developer is the perfect one-two punch, as not only can I visualize a beautiful new website, application, or other user experience, I also have the technical know-how to build it. From the first time
+                        I ever laid hands on a computer, I’ve had a growing obsession for technology. I grew up taking apart and fixing PCs, playing tons of retro games, and always trying to learn more. Fast forward to today, and not much has changed.
+                        I have more computers and servers in my apartment than I can count, develop video games in my free time, bury myself in code, stay up way later than I probably should, and am constantly teaching myself new things. I’ve taken my
+                        passion for computer hardware and software and combined it with my love of creating. I work diligently to grow my skill set each and every day as a content creator, and love working with experimental technologies in virtual/augmented
+                        reality applications. I specialize primarily in web, mobile, 3D, and motion/video work, but am also comfortable with more traditional print mediums. When I’m not working on a new project, I’m probably hosting LAN parties, getting
+                        my drone stuck in a tree, rocking out to some music, or making some delicious vegan food. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="video-trailer"></div>
+    <div class="div-blue">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2 class="text-center spacing-bottom">I'm skilled in many areas...</h2></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12"><img class="img-responsive" src="assets/img/skills.png" alt="skill cloud"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="div-grey">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="text-center">And I specialize in...</h2></div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-4 col-sm-offset-0 col-xs-8 col-xs-offset-2 spacing-top"><img class="img-responsive icon-lg center-block" src="assets/img/vr.svg" alt="virtual reality">
+                    <h3 class="text-center">Virtual/Augmented Reality</h3></div>
+                <div class="col-md-4 col-sm-4 col-sm-offset-0 col-xs-8 col-xs-offset-2 spacing-top"><img class="img-responsive icon-lg center-block" src="assets/img/games.svg" alt="games">
+                    <h3 class="text-center">3D &amp; 2D Games</h3></div>
+                <div class="col-md-4 col-sm-4 col-sm-offset-0 col-xs-8 col-xs-offset-2 spacing-top"><img class="img-responsive icon-lg center-block" src="assets/img/mobile.svg" alt="web development">
+                    <h3 class="text-center">Web &amp; Mobile</h3></div>
+            </div>
+        </div>
+    </div>
+    <div class="div-blue">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="text-center spacing-bottom">And here's what I've been working on...</h2></div>
+                <div class="col-md-4 col-sm-12 col-xs-12"><img class="img-responsive center-block image-padded" src="assets/img/rocketleague.png"></div>
+                <div class="col-md-8">
+                    <h3 class="text-left fluid-text small-heading-center">Mobile Rocket League Clone in Unity 5</h3>
+                    <h4 class="text-left fluid-text small-heading-center">January 26, 2016</h4></div>
+                <div class="col-md-8">
+                    <p class="fluid-text">Lorem ipsum dolor sit amet, vix simul inermis delicata eu, ea vocent legimus qualisque per. Pri enim posse dolore ut. No ancillae dignissim mea. Eu vix illum labore causae. Aliquid recusabo pri ad. Ne mazim ponderum usu, eripuit abhorreant
+                        ex mei, quo ea vero utinam salutandi. Solet meliore ea vix. Ad inimicus qualisque interesset cume. </p>
+                    <button class="btn btn-default fluid-text" type="button">View Full Post &gt;</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="div-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2 id="div-white" class="text-center">Want to work with me? </h2>
+                            <h3 id="div-white" class="text-center">Have a look at my <a href="/assets/ChrisJonesResume.pdf" class="link-blue">resume </a> and let’s get in touch. </h3></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
 
 
-		</div><!-- .contaier -->
-
-	</section>
-
-	<!-- Portfolio end -->
-    
-    <!-- Skills start -->
-    
-    <section class="pfblock pfblock-gray" id="skills">
-		
-			<div class="container">
-			
-				<div class="row skills">
-					
-					<div class="row">
-
-                        <div class="col-sm-6 col-sm-offset-3">
-
-                            <div class="pfblock-header wow fadeInUp">
-                                <h2 class="pfblock-title">My Skills</h2>
-                                <div class="pfblock-line"></div>
-                                <div class="pfblock-subtitle">
-                                   <p>I've had a passion for technology ever since I was a little kid taking apart and repairing computers. I've been doing serious computer design / development work now for over 5+ years. Here are a few of my areas of expertise, ranked by overall skill level.</p>
+    <!DOCTYPE html>
+<html>
+<body>
+    <div class="div-grey">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 spacing-bottom">
+                    <h2 class="text-center">Connect with me!</h2></div>
+            </div>
+            <div class="row footer-mid">
+                <div class="col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-12 col-xs-offset-0" id="social-background">
+                    <div class="row">
+                        <div class="col-xs-3 col-xs-offset-3 social-icon-spacing-bottom-sm">
+                            <a href="mailto:0chrisjones0@gmail.com"><img class="img-responsive social-icon" src="/assets/img/email.svg" alt="email"></a>
+                        </div>
+                        <div class="col-xs-3">
+                            <a href="https://github.com/OChrisJonesO"><img class="img-responsive social-icon" src="/assets/img/github.svg" alt="github"></a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3 col-sm-3 col-xs-3">
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <a href="tel:4195819051"><img class="img-responsive social-icon-spacing-top2 social-icon" src="/assets/img/phone.svg" alt="phone"></a>
                                 </div>
                             </div>
-
+                            <div class="row">
+                                <div class="col-xs-12 social-icon-spacing-top">
+                                    <a href="https://www.linkedin.com/in/0chrisjones0"><img class="img-responsive social-icon" src="/assets/img/linkedin.svg" alt="linkedin"></a>
+                                </div>
+                            </div>
                         </div>
-
-                    </div><!-- .row -->
-					
-					<div class="col-sm-6 col-md-3 text-center">
-						<span data-percent="90" class="chart easyPieChart" style="width: 140px; height: 140px; line-height: 140px;">
-                            <span class="percent">90</span>
-                        </span>
-						<h3 class="text-center">Hardware/Software</h3>
-					</div>
-					<div class="col-sm-6 col-md-3 text-center">
-						<span data-percent="80" class="chart easyPieChart" style="width: 140px; height: 140px; line-height: 140px; barColor:blue;">
-                            <span class="percent">80</span>
-                        </span>
-						<h3 class="text-center">Web Design & UI/UX</h3>
-					</div>
-					<div class="col-sm-6 col-md-3 text-center">
-						<span data-percent="70" class="chart easyPieChart" style="width: 140px; height: 140px; line-height: 140px;">
-                            <span class="percent">75</span>
-                        </span>
-						<h3 class="text-center">Programming</h3>
-					</div>
-						<div class="col-sm-6 col-md-3 text-center">
-						<span data-percent="90" class="chart easyPieChart" style="width: 140px; height: 140px; line-height: 140px;">
-                            <span class="percent">90</span>
-                        </span>
-						<h3 class="text-center">Graphics</h3>
-					</div>
-					<div class="col-sm-6 col-md-3 text-center">
-						<span data-percent="65" class="chart easyPieChart" style="width: 140px; height: 140px; line-height: 140px;">
-                            <span class="percent">65</span>
-                        </span>
-						<h3 class="text-center">Photo</h3>
-					</div>
-					<div class="col-sm-6 col-md-3 text-center">
-						<span data-percent="70" class="chart easyPieChart" style="width: 140px; height: 140px; line-height: 140px;">
-                            <span class="percent">70</span>
-                        </span>
-						<h3 class="text-center">Video & Motion</h3>
-					</div>
-					<div class="col-sm-6 col-md-3 text-center">
-						<span data-percent="60" class="chart easyPieChart" style="width: 140px; height: 140px; line-height: 140px;">
-                            <span class="percent">60</span>
-                        </span>
-						<h3 class="text-center">3D</h3>
-					</div>
-                    <div class="col-sm-6 col-md-3 text-center">
-						<span data-percent="80" class="chart easyPieChart" style="width: 140px; height: 140px; line-height: 140px; color:black;">
-                            <span class="percent">80</span>
-                        </span>
-						<h3 class="text-center">Office Applications</h3>
-					</div>
-					
-				</div><!--End row -->
-			
-			</div>
-		
-    </section>
-    
-    <!-- Skills end -->
-
-	<!-- CallToAction start -->
-
-	<section class="calltoaction">
-		<div class="container">
-
-			<div class="row" id="contact">
-
-				<div class="col-md-12 col-lg-12">
-					<h2 class="wow slideInRight" data-wow-delay=".1s">Let's get in touch</h2>
-						<div class="pfblock-line"></div>
-						<div class="pfblock-subtitle">
-							<p style="color:white;">Want to talk? Call or text me anytime at <strong><a href="tel:419-581-9051">419-581-9051</a></strong>, or shoot me an email at <strong><a href="mailto:0chrisjones0@gmail.com">0chrisjones0@gmail.com</a> Also, please feel free to download and take a look at my <a href="assets/ChrisJonesResume.pdf">resume.</a></strong> I look forward to hearing from you soon!</p>
-						</div>
-					</div>
-				</div>
-
-
-			</div><!-- .row -->
-		</div><!-- .container -->
-	</section>
-
-	<!-- CallToAction end -->
-
-	<!-- Contact start -->
-
-	
-
-	<!-- Contact end -->
-
-	<!-- Footer start -->
-
-	<footer id="footer">
-		<div class="container">
-			<div class="row">
-
-				<div class="col-sm-12">
-
-					<ul class="social-links">
-						<li><a href="https://www.facebook.com/ochrisjoneso" class="wow fadeInUp" data-wow-delay=".1s"><i class="fa fa-facebook"></i></a></li>
-						<li><a href="https://twitter.com/ochrisjoneso" class="wow fadeInUp" data-wow-delay=".2s"><i class="fa fa-twitter"></i></a></li>
-						<li><a href="https://www.behance.net/OChrisJonesO" class="wow fadeInUp" data-wow-delay=".3s"><i class="fa fa-behance"></i></a></li>
-						<li><a href="mailto:0chrisjones0@gmail.com" class="wow fadeInUp" data-wow-delay=".4s"><i class="fa fa-envelope"></i></a></li>
-						<li><a href="tel:419-581-9051" class="wow fadeInUp" data-wow-delay=".5s"><i class="fa fa-phone"></i></a></li>
-					</ul>
-                    <p class="copyright">
-                        Copyright 2015 &copy; Chris Jones
-                       
-					</p>
-
-				</div>
-
-			</div><!-- .row -->
-		</div><!-- .container -->
-	</footer>
-
-	<!-- Footer end -->
-
-	<!-- Scroll to top -->
-
-	<div class="scroll-up">
-		<a href="#home"><i class="fa fa-angle-up"></i></a>
-	</div>
-    
-    <!-- Scroll to top end-->
-
-<!-- Portfolio Modals -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
+                        <div class="col-md-6 col-sm-6 col-xs-6">
+                            <div class="row">
+                                <div class="col-md-12"><img class="img-responsive social-icon-avatar" src="/assets/img/avatar.svg"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-3 col-xs-3">
+                            <div class="row">
+                                <div class="col-xs-12 social-icon-spacing-top2">
+                                    <a href="https://dribbble.com/OChrisJonesO"><img class="img-responsive social-icon" src="/assets/img/dribbble.svg" alt="dribbble"></a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12 social-icon-spacing-top">
+                                    <a href="http://www.twitch.tv/ochrisjoneso"><img class="img-responsive social-icon" src="/assets/img/twitch.svg" alt="twitch"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-3 col-xs-offset-3 social-icon-spacing-bottom-sm">
+                            <a href="https://twitter.com/OChrisJonesO"><img class="img-responsive social-icon" src="/assets/img/twitter.svg" alt="twitter" style="margin-top:30px"></a>
+                        </div>
+                        <div class="col-xs-3">
+                            <a href="https://www.youtube.com/channel/UCrloisSZ9aTNsa5ytMy6Kmw"><img class="img-responsive social-icon" src="/assets/img/youtube.svg" alt="youtube" style="margin-top:30px;"></a>
+                        </div>
                     </div>
                 </div>
+                <div class="col-lg-offset-2 col-md-2 col-md-offset-1 col-sm-1 col-sm-offset-0 hidden-xs hidden-sm" id="up-arrow">
+                    <a href="#top"> <img class="img-responsive arrows center-block" src="/assets/img/up-arrow.svg" alt="back to top"></a>
+                    <p class="text-center spacing-top-sm"><a href="#top" class="link-white text-center">Back to top</a></p>
+                </div>
             </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>City of Boston</h2>
-<br>
-                            <img src="assets/images/boston.jpg" class="img-responsive img-centered" alt="">
-                            <p>This is a web design project for a travel destination. I chose Boston, Massachusetts and really pushed myself on the design. It is a flat, modern website with a modern single page layout. When it came time to code it, I took it way further than any of my classmates - adding interactivity, a timelapse video wallpaper, and smooth scrolling effects (among others).</p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://saa.edu">School of Advertising Art</a>
-                                    </strong>
-                                </li>
-                                <li>Date: 
-                                    <strong>April 2015
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong>Web Development
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <h4 class="text-center spacing-top">Chris Jones © 2015. All Rights Reserved. </h4>
+                    <!--<h5 class="text-center spacing-top">Built with <a href="http://getbootstrap.com/">Bootstrap,</a> powered by <a href="https://jekyllrb.com/">Jekyll,</a> and hosted on <a href="https://pages.github.com/">Github Pages.</a>-->
+
+                    <a class="hidden-md hidden-lg" href="#top"> <img class="img-responsive arrows spacing-top-sm center-block" src="/assets/img/up-arrow.svg" alt="back to top" width="100" height="100"></a>
+                    <p class="hidden-md hidden-lg text-center spacing-top-sm"><a href="#top" class="link-white text-center">Back to top</a></p>
                 </div>
             </div>
         </div>
     </div>
-
-        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Dalco Electronics</h2>
-<br>
-                            <img src="assets/images/dalco.jpg" class="img-responsive img-centered" alt="">
-                            <p>This is a current website that I help manage. I work part-time for Dalco Electronics as a computer technician, and also work in retail, graphics, and web. I've had to do a number of projects that are related to this website. This is the new design we just launched a few days ago, and while I did not code it all, I had a big role in the design and UI/UX of it all. It runs on the aspdotnetstorefront eCommerce software packages.</p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://www.dalco.com/">Dalco Electronics</a>
-                                    </strong>
-                                </li>
-                                <li>Date: 
-                                    <strong>April 2015
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong>Web Development
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Coldwater Ben's</h2>
-<br>
-                            <img src="assets/images/coldwaterbens.jpg" class="img-responsive img-centered" alt="">
-                            <p>This is a small WordPress site that I manage and update as needed. It is for an old business that I used to work for. I designed and laid out the site myself, and took all the photography featured in it. It is a basic site meant to be very user-friendly, and the WordPress CMS makes it easy to manage.</p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://www.coldwaterbens.com/">Coldwater Bens</a>
-                                    </strong>
-                                </li>
-                                <li>Date: 
-                                    <strong>February 2015
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong>Web Development
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    
-      <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Daiya Foods</h2>
-<br>
-                            <img src="assets/images/daiya.jpg" class="img-responsive img-centered" alt="">
-                            <p>This is only a design (not fully coded). This project tasked us with designing a splash page for a food product based on a unique concept. We also had a very short deadline, and I love how this one turned out! </p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://www.saa.edu/">School of Advertising Art</a>
-                                    </strong>
-                                </li>
-                                <li>Date: 
-                                    <strong>February 2015
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong>Web Design
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Renewable Resources</h2>
-<br>
-                            <img src="assets/images/bpa.jpg" class="img-responsive img-centered" alt="">
-                            <p>This was a website I designed and coded while in my career tech center during high school. It was for the Business Professionals of America's website design team competition. With the aid of 3 of my classmates, we were able to assemble a complete responsive, multi-page website in just a few weeks. We placed first in regionals, and second at the state competition! </p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://www.bpa.org/">Business Professionals of America</a>
-                                    </strong>
-                                </li>
-                                <li>Date: 
-                                    <strong>July 2014
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong>Web Development
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>PC Gaming Quick Tips</h2>
-<br>
-                            <video class="img-responsive img-centered" controls>
-  <source src="assets/images/quicktips.mp4" type="video/mp4">
-  <source src="assets/images/quicktips.mp4" type="video/ogg">
-Your browser does not support the video tag.
-</video>
-                            <p>This is a short video series that I run on my own personal YouTube channel in my free time. This video showcases some motion design, as I created both intros to the video myself using Adobe After Effects, Premiere, and Sony Vegas. It also showcases my recording and video editing capabilites. Best of all, it's all entirely on my own time for fun!</p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://www.youtube.com/">YouTube</a>
-                                    </strong>
-                                </li>
-                                <li>Date: 
-                                    <strong>January 2015
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong>Video / Motion
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Bee the Swarm</h2>
-<br>
-                            <video class="img-responsive img-centered" controls>
-  <source src="assets/images/beetheswarm.mp4" type="video/mp4">
-  <source src="assets/images/beetheswarm.mp4" type="video/ogg">
-Your browser does not support the video tag.
-</video>
-                            <p>This is an example of a promotional video that I created using Premiere for the startup app development company I also work for, Bee the Swarm.</p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://www.beetheswarm.com/">Bee The Swarm</a>
-                                    </strong>
-                                </li>
-                                <li>Date: 
-                                    <strong>March 2015
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong>Video / Motion
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-<div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Bee the Swarm</h2>
-<br>
-                            <video class="img-responsive img-centered" controls>
-  <source src="assets/images/landofconfusion.mp4" type="video/mp4">
-  <source src="assets/images/landofconfusion.mp4" type="video/ogg">
-Your browser does not support the video tag.
-</video>
-                            <p>This was a project for my junior year American History Class. Students were tasked with creating a simple lyric video of a song that had some form of an influence on government. While most of my classmates did simple, ugly videos with windows movie maker, I wanted to take mine way beyond what was required. I used Sony Vegas and After Effects for this project.</p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://www.marionlocal.org/">Marion Local High School</a>
-                                    </strong>
-                                </li>
-                                <li>Date: 
-                                    <strong>August 2013
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong>Video / Motion
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-<div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Daryl Dixon Illustration</h2>
-<br>
-  							<img src="assets/images/illustration.jpeg" class="img-responsive img-centered" alt="">
-                            <p>This is one of my rare traditional works of art. I am primarily a digital artist / designer, so when I get ou the pencil and paper and begin to physically draw, some surprising things can happen. This is my version of a celebrity portrait from AMC's The Walking Dead. Done on 15x20" board using standard graphite pencils.</p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://saa.edu/">School of Advertising Art</a>
-                                    </strong>
-                                </li>
-                                <li>Date: 
-                                    <strong>December 2014
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong>Illustration
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-   <div class="portfolio-modal modal fade" id="portfolioModal10" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Non-Profit Ad</h2>
-<br>
-  							<img src="assets/images/nonprofit.png" class="img-responsive img-centered" alt="">
-                            <p>This was unexpectedly one of my favorite projects for App101. We had to choose a non-profit organization, and brainstorm/concept up an idea for an event to host, and then design a print flyer ad for it. This was done primarily in Illustrator and InDesign.</p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://saa.edu/">School of Advertising Art</a>
-                                    </strong>
-                                </li>
-                                <li>Date: 
-                                    <strong>November 2014
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong>Print Design
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-   <div class="portfolio-modal modal fade" id="portfolioModal11" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Steam Client</h2>
-<br>
-  							<img src="assets/images/steam.jpg" class="img-responsive img-centered" alt="">
-                            <p>This project was all about designing a print ad for a service company. I chose Valve Software's Steam client, an online digital distribution platform for indie and AAA video games alike. </p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://saa.edu/">School of Advertising Art</a>
-                                    </strong>
-                                </li>
-                                <li>Date: 
-                                    <strong>September 2014
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong>Print Design
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-     <div class="portfolio-modal modal fade" id="portfolioModal12" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Earth Fare</h2>
-<br>
-  							<img src="assets/images/retail.jpg" class="img-responsive img-centered" alt="">
-                            <p>This Retail design project tasked students with a company who needed a bit of a retail makeover. I had to design signage, gift cards, bags, and produce stickers for the health foods store Earth Fare, and they all had to flow nicely together stylistically. I centered mine around a "Liberate your Food" campaign. A lot of time was spent perfecting the designs of these products before mocking them up.</p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://saa.edu/">School of Advertising Art</a>
-                                    </strong>
-                                </li>
-                                <li>Date: 
-                                    <strong>April 2015
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong>Print Design
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    
-    
-    
-    <div class="portfolio-modal modal fade" id="portfolioModal13" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Breakthrough VR</h2>
-<br>
-                            <img src="assets/images/breakthrough.jpg" class="img-responsive img-centered" alt="">
-                            <p>This is a Unity 5 powered, Oculus Virtual Reality Racing sim that I designed and developed over the course of two months. It was client work Teradata Partners 2015, an upcoming conference in Anaheim, California - in which over 700 unique players experienced the power of Virtual Reality in the Buzz Lounge. Programmed in C#, I was the sole person working on this entire project. I also built all 3 gaming PC's for the game to run on, and coupled them with racing cockpit seats and steering wheels to complete the immersive experience.</p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://www.wilsonrebranding.com/">Wilson Rebranding</a>
-                                    </strong>
-                                </li>
-                                <li>Date: 
-                                    <strong>July 2015
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong>Game Development
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--
-    <div class="portfolio-modal modal fade" id="portfolioModal14" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>The Hive</h2>
-<br>
-                            <img src="assets/images/hive.jpg" class="img-responsive img-centered" alt="">
-                            <p>This is a Unity 5 powered, upcoming release iOS and Android game targeted at casual players. It is a bee-themed, fast paced strategy / action game, that tasks the player with controling a swarm of bees, attacking enemy insects, and re-assembling The Hive over the course of over 50 unique levels and environments. Programmed in C#.</p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://www.beetheswarm.com/">Bee The Swarm</a>
-                                    </strong>
-                                </li>
-                                <li>Date: 
-                                    <strong>June 2015
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong>Game Development
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    -->
-     <!--<div class="portfolio-modal modal fade" id="portfolioModal15" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Teradata At Your Service</h2>
-<br>
-                            <img src="assets/images/tays.jpg" class="img-responsive img-centered" alt="">
-                            <p>This is a huge web design project that I got to take part of. TaYS is an upcoming support portal for Teradata Customers to be able to manage their Teradata solutions through a nice, clean, and easy to use interface. I played the role of a lead web designer on this project, collaborating with other team members and the client themselves to produce the following web designs.</p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://www.wilsonrebranding.com/">Wilson Rebranding</a>
-                                    </strong>
-                                </li>
-                                <li>Date: 
-                                    <strong>June 2015
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong>Web Design
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    -->
-    
-    
-    
-    
-    <div class="portfolio-modal modal fade" id="portfolioModal16" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Detachable Automotive Smart Hub</h2>
-<br>
-                            <video class="img-responsive img-centered" controls>
-  <source src="assets/images/dash.mov" type="video/mp4">
-  <source src="assets/images/dash.mov" type="video/ogg">
-Your browser does not support the video tag.
-</video>
-                            <p>Dash is a fictional product inspired by DIY car PC / media player solutions. I personally have mounted an Android Tablet in my car, which gives weather and traffic reports, gps navigation, music, movies, and even car diagnostics. Setting this up is a daunting, custom endeavor and not for those who are not technically savvy. Wouldn't it be great to have all these features and more in your own car, without having to buy a new one? Enter DASH.</p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://www.saa.edu/">School of Advertising Art</a>
-                                    </strong>
-                                </li>
-                                <li>Date: 
-                                    <strong>May 2015
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong>Motion Graphics
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    <div class="portfolio-modal modal fade" id="portfolioModal17" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Gamescom</h2>
-<br>
-                            <img src="assets/images/gamescom.jpg" class="img-responsive img-centered" alt="dash">
-                            <p>This is a responsive website I designed as a part of a website redesign and rebrand project during the spring semester of year 1 at SAA. It has a media-driven focus with a fun color scheme and design tartgeted at gamers. It's hierachy emphasizes driving attendance to this year's Gamescom.</p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://www.saa.edu/">School of Advertising Art</a>
-                                    </strong>
-                                </li>
-                                <li>Date: 
-                                    <strong>May 2015
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong>Web Design
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    <div class="portfolio-modal modal fade" id="portfolioModal18" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Gamescom</h2>
-<br>
-                            <img src="assets/images/buildapc.jpg" class="img-responsive img-centered" alt="dash">
-                            <p>This is an app design project I was tasked with early on in second year. It is an Android app that follows Google's material design, to create a beautiful, user friendly interface. It centers around the computer building community, offering a companion application dedicated to helping them choose parts to assemble their next build.</p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://www.saa.edu/">School of Advertising Art</a>
-                                    </strong>
-                                </li>
-                                <li>Date: 
-                                    <strong>September 2015
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong>Web Design
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    
-    
-
-	<!-- Javascript files -->
-
-	<script src="assets/js/jquery-1.11.1.min.js"></script>
-	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
-	<script src="assets/js/jquery.parallax-1.1.3.js"></script>
-	<script src="assets/js/imagesloaded.pkgd.js"></script>
-	<script src="assets/js/jquery.sticky.js"></script>
-	<script src="assets/js/smoothscroll.js"></script>
-	<script src="assets/js/wow.min.js"></script>
-    <script src="assets/js/jquery.easypiechart.js"></script>
-    
-    <script src="assets/js/waypoints.min.js"></script>
-    <script src="assets/js/jquery.cbpQTRotator.js"></script>
-	<script src="assets/js/custom.js"></script>
-
+    <script src="/assets/js/jquery.min.js"></script>
+    <script src="/assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/assets/js/collapse.js"></script>
 </body>
+
+</html>
+
+  </body>
+
 </html>
