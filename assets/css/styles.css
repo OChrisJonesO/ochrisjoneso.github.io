@@ -308,26 +308,26 @@ transform: translate(-50px, 0)
 .project-container {
   position: relative;
   height: auto;
-  min-height: 400px;
+  min-height: 550px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   filter: gray; /* IE6-9 */
   -webkit-filter: grayscale(100%);
-  -webkit-transition: 1s ease-in-out;
+  -webkit-transition: .75s ease-in-out;
   -moz-filter: grayscale(100%); 
-  -moz-transition: 1s ease-in-out;
+  -moz-transition: .75s ease-in-out;
   -o-filter: grayscale(100%); 
-  -o-transition: 1s ease-in-out;
+  -o-transition: .75s ease-in-out;
   filter: grayscale(100%); }
 .project-container:hover{
    filter: none;
   -webkit-filter: grayscale(0%);
-  -webkit-transition: 1s ease-in-out;
+  -webkit-transition: .75s ease-in-out;
   -moz-filter: grayscale(0%);
-  -moz-transition: 1s ease-in-out;
+  -moz-transition: .75s ease-in-out;
   -o-filter: grayscale(0%);
-  -o-transition: 1s ease-in-out;
+  -o-transition: .75s ease-in-out;
   filter: grayscale(0%);
 }
 .project-container-expanded {
@@ -432,8 +432,9 @@ transform: translate(-50px, 0)
 
 .recent-posts{
   list-style-type: none;
-  padding: 0px;
-  margin: 0px;
+  width:100%;
+  padding: 0px !important;
+  margin: 0px !important;
 }
 .post-titles, .post-titles:hover{
   color:#404041 !important;
