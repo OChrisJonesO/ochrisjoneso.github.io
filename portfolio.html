@@ -3,28 +3,26 @@
 <html>
 
   <!--Defines the <head> content of all Jekyll markdown pages-->
- <head>
+<head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Chris Jones | Portfolio
-</title>
+  </title>
   <meta name="description" content="Ramblings of a creative developer">
-    <!--Stylesheet that links to Jekyll's CSS. Removed SASS autogeneration and am just using this static CSS for simplicity's sake-->
+  <!--Stylesheet that links to Jekyll's CSS. Removed SASS autogeneration and am just using this static CSS for simplicity's sake-->
   <link rel="stylesheet" href="/assets/css/jekyll.css">
   <!--Bootstrap CSS--->
   <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
   <!--Custom styles used throughout the rest of the site, used for header / footer-->
   <link rel="stylesheet" href="/assets/css/styles.css">
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Varela+Round">
-
-    </style>
-</head>
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Varela+Round">
   <link rel="canonical" href="http://chrisjonescreations.com/portfolio">
   <link rel="alternate" type="application/rss+xml" title="Chris Jones |" href="http://chrisjonescreations.com/feed.xml">
-  <script src='https://www.google.com/recaptcha/api.js'></script>
+  </style>
 </head>
+
 
 
   <body>
@@ -295,8 +293,6 @@
             <div class="row">
                 <div class="col-md-12">
                     <h4 class="text-center spacing-top">Chris Jones © 2015. All Rights Reserved. </h4>
-                    <!--<h5 class="text-center spacing-top">Built with <a href="http://getbootstrap.com/">Bootstrap,</a> powered by <a href="https://jekyllrb.com/">Jekyll,</a> and hosted on <a href="https://pages.github.com/">Github Pages.</a>-->
-
                     <a class="hidden-md hidden-lg" href="#top"> <img class="img-responsive arrows spacing-top-sm center-block" src="/assets/img/up-arrow.svg" alt="back to top" width="100" height="100"></a>
                     <p class="hidden-md hidden-lg text-center spacing-top-sm"><a href="#top" class="link-white text-center">Back to top</a></p>
                 </div>
@@ -306,6 +302,22 @@
     <script src="/assets/js/jquery.min.js"></script>
     <script src="/assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="/assets/js/collapse.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+
+    <script>$(function() {
+    $('a[href*=#]:not([href=#])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+            if (target.length) {
+                $('html,body').animate({
+                    scrollTop: target.offset().top
+                }, 1000);
+                return false;
+            }
+        }
+    });
+});</script>
 </body>
 
 </html>

@@ -59,26 +59,34 @@ transform: translate(-50px, 0)
  }
 
 #billboard {
-  background-image: url(../../assets/img/background.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
   height: 100vh; }
 
 @media (max-height: 480px) {
   #billboard {
-    background-image: url(../../assets/img/background.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
     height: 450px; } }
-#video-trailer {
-  background-image: url(../../assets/img/video-placeholder.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 550px; }
 
+.fullscreen-bg-video {
+   position: fixed;
+  top: 50%; left: 50%;
+  z-index: -1;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  transform: translate(-50%, -50%);
+  filter: gray; /* IE6-9 */
+  filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+}
+#video-trailer-container {
+  width: 100%;
+  background-color: #404041;}
+#video-trailer {
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+}
 .div-blue {
   background-color: #00aeef;
   padding-top: 50px;
