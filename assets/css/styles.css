@@ -61,12 +61,18 @@ transform: translate(-50px, 0)
 #billboard {
   height: 100vh; }
 
+@media (max-width: 767px) {
+    #billboard {
+        background: url('/assets/img/background.png') center center / cover no-repeat;
+    }
+}
 @media (max-height: 480px) {
   #billboard {
+    background: url('/assets/img/background.png') center center / cover no-repeat;
     height: 450px; } }
 
 .fullscreen-bg-video {
-   position: fixed;
+  position: fixed;
   top: 50%; left: 50%;
   z-index: -1;
   min-width: 100%;
@@ -77,6 +83,11 @@ transform: translate(-50px, 0)
   filter: gray; /* IE6-9 */
   filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
   -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+}
+@media (max-width: 767px) {
+    .fullscreen-bg-video {
+        display: none;
+    }
 }
 #video-trailer-container {
   width: 100%;
