@@ -66,12 +66,12 @@ transform: translate(-50px, 0)
 
 @media (max-width: 767px) {
     #billboard {
-        background: url('/assets/img/background.png') center center / cover no-repeat;
+        background: url('/assets/img/background.jpg') center center / cover no-repeat;
     }
 }
 @media (max-height: 480px) {
   #billboard {
-    background: url('/assets/img/background.png') center center / cover no-repeat;
+    background: url('/assets/img/background.jpg') center center / cover no-repeat;
     height: 450px; } }
 
 .fullscreen-bg-video {
