@@ -308,7 +308,7 @@ transform: translate(-50px, 0)
 .project-container {
   position: relative;
   height: auto;
-  min-height: 550px;
+  min-height: 400px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
