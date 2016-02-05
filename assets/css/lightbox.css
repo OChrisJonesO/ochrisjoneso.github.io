@@ -1,6 +1,6 @@
 /* Preload images */
 body:after {
-  content: url(../images/close.png) url(../images/loading.gif) url(../images/prev.png) url(../images/next.png);
+  content: url(/assets/img/lightbox/close.png) url(/assets/img/lightbox/loading.gif) url(/assets/img/lightbox/prev.png) url(/assets/img/lightbox/next.png);
   display: none;
 }
 
@@ -75,7 +75,7 @@ body.lb-disable-scrolling {
   width: 32px;
   height: 32px;
   margin: 0 auto;
-  background: url(../images/loading.gif) no-repeat;
+  background: url(/assets/img/lightbox/loading.gif) no-repeat;
 }
 
 .lb-nav {
