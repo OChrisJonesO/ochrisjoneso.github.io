@@ -15,6 +15,8 @@
   <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
   <!--Animate.css--->
   <link rel="stylesheet" href="/assets/css/animate.css">
+  <!--Lightbox-->
+  <link rel="stylesheet" href="/assets/css/lightbox.css">
   <!--Custom styles used throughout the rest of the site, used for header / footer-->
   <link rel="stylesheet" href="/assets/css/styles.css">
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Varela+Round">
@@ -25,6 +27,8 @@
 
 
 
+
+         <div id="top"></div>
 
         <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
@@ -201,6 +205,7 @@ this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your pag
 <script src="/assets/bootstrap/js/bootstrap.min.js"></script>
 <script src='https://www.google.com/recaptcha/api.js'></script>
 <script src="/assets/js/collapse.js"></script>
+<script src="/assets/js/lightbox.min.js"></script>
 <!--Initiates SmoothScroll for going to anchors-->
 <script>$(function() {
     $(".smoothScroll").click(function() {
@@ -227,6 +232,16 @@ this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your pag
         this.load();
         this.play();
     });
+</script>
+
+<!--Set custom options for lightbox-->
+<script>
+    lightbox.option({
+      'resizeDuration': 400,
+      'wrapAround': true,
+        'alwaysShowNavOnTouchDevices': true,
+        'fitImagesInViewport':true
+    })
 </script>
 </body>
 

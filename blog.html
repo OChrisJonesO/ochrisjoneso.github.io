@@ -15,6 +15,8 @@
   <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
   <!--Animate.css--->
   <link rel="stylesheet" href="/assets/css/animate.css">
+  <!--Lightbox-->
+  <link rel="stylesheet" href="/assets/css/lightbox.css">
   <!--Custom styles used throughout the rest of the site, used for header / footer-->
   <link rel="stylesheet" href="/assets/css/styles.css">
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Varela+Round">
@@ -25,6 +27,8 @@
 
 
 
+
+         <div id="top"></div>
 
         <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
@@ -60,6 +64,25 @@
 
                 <ul class="recent-posts">
                     
+                    <div class="col-md-12 wow slideInLeft">
+                        <div class="col-sm-3">
+                            <img src="/assets/img/avatar.svg" class="img-responsive">
+                        </div>
+                        <div class="col-sm-9">
+                            <li class="recent-posts">
+                                <h3 class="small-heading-center"><a href="/blog-post/atrix-4g-lapdock-mobile-monitor" class="post-titles">Motorola Atrix 4G Lapdock - An Easy & Cheap Portable Monitor Solution</a></h3>
+                                <h4 class="small-heading-center">February 02, 2016</h4>
+                                <p>I’ve had the need for a portable monitor for a while. While at school/work, using a single display feels extremely cramped. Even though my laptop has a 4K display, its still only 15 inches large and with display scaling turned on (because you definitely need it at this size) to even 175%, it still isn’t that much screen real estate.</p>
+
+
+                                <a href="/blog-post/atrix-4g-lapdock-mobile-monitor">
+                                    <button class="btn btn-default fluid-text spacing-bottom-sm" type="button">View Full Post &gt;</button></a>
+                                <hr>
+
+                        </div>
+                        </li>
+                    </div>
+                
                     <div class="col-md-12 wow slideInLeft">
                         <div class="col-sm-3">
                             <img src="/assets/img/avatar.svg" class="img-responsive">
@@ -215,6 +238,7 @@
 <script src="/assets/bootstrap/js/bootstrap.min.js"></script>
 <script src='https://www.google.com/recaptcha/api.js'></script>
 <script src="/assets/js/collapse.js"></script>
+<script src="/assets/js/lightbox.min.js"></script>
 <!--Initiates SmoothScroll for going to anchors-->
 <script>$(function() {
     $(".smoothScroll").click(function() {
@@ -241,6 +265,16 @@
         this.load();
         this.play();
     });
+</script>
+
+<!--Set custom options for lightbox-->
+<script>
+    lightbox.option({
+      'resizeDuration': 400,
+      'wrapAround': true,
+        'alwaysShowNavOnTouchDevices': true,
+        'fitImagesInViewport':true
+    })
 </script>
 </body>
 
