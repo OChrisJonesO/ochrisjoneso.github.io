@@ -5,8 +5,8 @@
     <description>Chris Jones is a creative developer based out of Dayton, Ohio. He works as a designer/developer on websites, mobile apps, video games, and VR/AR experiences.</description>
     <link>http://chrisjonescreations.com/</link>
     <atom:link href="http://chrisjonescreations.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 20 Apr 2016 06:28:59 +0100</pubDate>
-    <lastBuildDate>Wed, 20 Apr 2016 06:28:59 +0100</lastBuildDate>
+    <pubDate>Wed, 20 Apr 2016 08:39:14 +0100</pubDate>
+    <lastBuildDate>Wed, 20 Apr 2016 08:39:14 +0100</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
@@ -30,10 +30,10 @@
 
 &lt;p&gt;4) Re-launch steam in big picture mode.&lt;/p&gt;
 
-&lt;p&gt;Voila! It will now be running at the native resolutiono of your desktop, whether that’s 1440p, 2k, 4k, or any other resolution. Unfortunately however, this won’t make Ultrawide 21:9 users any happier, as it will still limit itself to 16:9 for some reason.&lt;/p&gt;
+&lt;p&gt;Voila! It will now be running at the native resolution of your desktop, whether that’s 1440p, 2k, 4k, or any other resolution. Unfortunately however, this won’t make Ultrawide 21:9 users any happier, as it will still limit itself to 16:9 for some reason.&lt;/p&gt;
 
 &lt;p&gt;If you have Steam set to auto-open in big picture mode every time you boot Windows and want to apply this fix, it can be done with a registry edit.
-Open regedit and put this command (-fulldesktopres) into the registry key at&lt;/p&gt;
+Open regedit.exe and put this command (-fulldesktopres) into the registry key at&lt;/p&gt;
 &lt;div class=&quot;specs spacing-both-sm&quot;&gt;HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run\Steam&lt;/div&gt;
 
 &lt;p&gt;Enjoy the screenshots below showing the difference between native 4K and 1080p upscaled to 4K. No more blurry big picture.&lt;/p&gt;
@@ -73,11 +73,11 @@ Open regedit and put this command (-fulldesktopres) into the registry key at&lt;
     
       <item>
         <title>Atrix 4G Lapdock - Portable Monitor</title>
-        <description>&lt;p&gt;I’ve had the need for a portable monitor for a while. While at school/work, using a single display feels extremely cramped. Even though my laptop has a 4K display, its still only 15 inches large and with display scaling turned on (because you definitely need it at this size) to even 175%, it still isn’t that much screen real estate.&lt;/p&gt;
+        <description>&lt;p&gt;I’ve had the need for a portable monitor for a while. While at school/work, using a single display feels extremely cramped. Even though my laptop has a 4K display, it’s still only 15 inches large and with display scaling turned on (because you definitely need it at this size) to even 175%, it still isn’t that much screen real estate.&lt;/p&gt;
 
 &lt;p&gt;For reference, I’m used to working with this much screen real estate at my desk:&lt;/p&gt;
 
-&lt;p&gt;I’ve had the need for a portable monitor for a while. While at school/work, using a single display feels extremely cramped. Even though my laptop has a 4K display, its still only 15 inches large and with display scaling turned on (because you definitely need it at this size) to even 175%, it still isn’t that much screen real estate.(for reference, I’m used to working with &lt;a class=&quot;link-grey&quot; href=&quot;/assets/img/blog-post/atrix-4g-lapdock-mobile-monitor/monitors.jpg&quot; target=&quot;_blank&quot;&gt;this much screen real estate&lt;/a&gt; at my desk.)&lt;/p&gt;
+&lt;p&gt;I’ve had the need for a portable monitor for a while. While at school/work, using a single display feels extremely cramped. Even though my laptop has a 4K display, it’s still only 15 inches large and with display scaling turned on (because you definitely need it at this size) to even 175%, it still isn’t that much screen real estate.(for reference, I’m used to working with &lt;a class=&quot;link-grey&quot; href=&quot;/assets/img/blog-post/atrix-4g-lapdock-mobile-monitor/monitors.jpg&quot; target=&quot;_blank&quot;&gt;this much screen real estate&lt;/a&gt; at my desk.)&lt;/p&gt;
 
 &lt;p&gt;For obvious reasons, I can’t exactly just take my wall of monitors with me on the go for school/work. But still, I find it to be extremely annoying to be stuck to just one display, and my productivity definitely suffers as a result.&lt;/p&gt;
 
@@ -85,7 +85,7 @@ Open regedit and put this command (-fulldesktopres) into the registry key at&lt;
 
 &lt;p&gt;I stumbled across this video from &lt;a class=&quot;link-grey&quot; target=&quot;_blank&quot; href=&quot;https://www.youtube.com/watch?v=yZkz_a52I6s&quot;&gt;Adafruit&lt;/a&gt;, in which they use a Motorola Atrix 4G Laptop Dock as a display for their mobile Raspberry Pi project. That’s cool I thought, but I wonder if it would work for other devices? Turns out that yes, it does.&lt;/p&gt;
 
-&lt;p&gt;The Atrix 4G Laptop dock was released as an accessory for the 2012 Atrix 4G Smartphone (duh). It was designed for mobile users to literally run a single device — their smartphone. Use your phone as you normally would, and then when it was time to get work done, dock it with this accessory and all of a sudden, your phone is transformed into a (small) laptop with a full keyboard and touchpad. When docked, the phone ran it’s own custom version of linux to scale better for the larger display, and even let you interact with native android features (calls, texts, apps) without undocking. Pretty neat.&lt;/p&gt;
+&lt;p&gt;The Atrix 4G Laptop dock was released as an accessory for the 2012 Atrix 4G Smartphone (duh). It was designed for mobile users to literally run a single device — their smartphone. Use your phone as you normally would, and then when it was time to get work done, dock it with this accessory and all of a sudden, your phone is transformed into a (small) laptop with a full keyboard and touchpad. When docked, the phone ran it’s own custom version of Linux to scale better for the larger display, and even let you interact with native android features (calls, texts, apps) without undocking. Pretty neat.&lt;/p&gt;
 
 &lt;p&gt;Unfortunately, it didn’t quite take off like they had hoped, and the Atrix 4G was discontinued. This however is a good thing, as the laptop docks are going for super cheap used on &lt;a class=&quot;link-grey&quot; href=&quot;http://www.ebay.com/sch/i.html?_odkw=motorola+atrix+4g+laptop&amp;amp;_osacat=0&amp;amp;_from=R40&amp;amp;_trksid=p2045573.m570.l1313.TR4.TRC2.A0.H1.Xmotorola+atrix+4g+lapdock.TRS0&amp;amp;_nkw=motorola+atrix+4g+lapdock&amp;amp;_sacat=0&quot;&gt;eBay.&lt;/a&gt; I managed to snag one for $40. Specs:&lt;/p&gt;
 
@@ -93,7 +93,7 @@ Open regedit and put this command (-fulldesktopres) into the registry key at&lt;
 &lt;ul&gt;
 &lt;li&gt;11.6&quot; Display&lt;/li&gt;
 &lt;li&gt;1366x768 resolution (135 PPI)&lt;/li&gt; 
-&lt;li&gt;Built in keyboard, touchpad - both of which are surpisingly good&lt;/li&gt;
+&lt;li&gt;Built in keyboard, touchpad - both of which are surprisingly good&lt;/li&gt;
 &lt;li&gt;Speakers&lt;/li&gt;
 &lt;li&gt;2-port USB 2.0 hub&lt;/li&gt;
 &lt;li&gt;Built in battery &lt;/li&gt;
