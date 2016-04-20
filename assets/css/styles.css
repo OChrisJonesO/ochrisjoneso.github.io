@@ -254,7 +254,8 @@ h1 {
   background-image: none; 
   border: 0px;
   font-weight: 400 !important;
-  text-transform: uppercase;}
+  text-transform: uppercase;
+}
 @media (max-width: 991px) {
   .btn {
     width: 100%; } }
@@ -365,23 +366,21 @@ h1 {
   padding-bottom: 25px;
   color: #404041; }
 #project1 {
-  background-image: url(/assets/img/portfolio/billboards/steam.png);}
+  background-image: url(/assets/img/portfolio/billboards/combatlan.jpg);}
 #project2 {
-  background-image: url(/assets/img/portfolio/billboards/steam.png);}
+  background-image: url(/assets/img/portfolio/billboards/ubuntugnome.jpg);}
 #project3 {
-  background-image: url(/assets/img/portfolio/billboards/steam.png);}
+  background-image: url(/assets/img/portfolio/billboards/battleofthebugs.jpg);}
 #project4 {
-  background-image: url(/assets/img/portfolio/billboards/steam.png);}
+  background-image: url(/assets/img/portfolio/billboards/steam.jpg);}
 #project5 {
-  background-image: url(/assets/img/portfolio/billboards/steam.png);}
+  background-image: url(/assets/img/portfolio/billboards/dash.jpg);}
 #project6 {
-  background-image: url(/assets/img/portfolio/billboards/steam.png);}
+  background-image: url(/assets/img/portfolio/billboards/ctrlaltvr.jpg);}
 #project7 {
-  background-image: url(/assets/img/portfolio/billboards/steam.png);}
+  background-image: url(/assets/img/portfolio/billboards/unite.jpg);}
 #project8 {
-  background-image: url(/assets/img/portfolio/billboards/steam.png);}
-#project9 {
-  background-image: url(/assets/img/portfolio/billboards/steam.png);}
+  background-image: url(/assets/img/portfolio/billboards/personalidentity.jpg);}
 .social-icon {
   max-width: 200px; }
 @media (max-width: 991px) {
@@ -509,4 +508,8 @@ h1 {
 */
 .img-spacing{
   max-width: 75%;
+}
+.img-nostyle{
+  background-color:  transparent !important;
+  background-image: none !important;
 }
